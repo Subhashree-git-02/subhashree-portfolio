@@ -28,7 +28,7 @@ const SKILLS = [
   { group: 'Frontend', icon: Layers, items: ['React.js', 'HTML5', 'CSS3', 'Tailwind CSS'] },
   { group: 'Backend', icon: Cpu, items: ['Java', 'Spring Boot', 'Express.js','Node.js', 'OOPs'] },
   { group: 'Databases', icon: Database, items: ['MySQL', 'MongoDB', 'DBMS'] },
-  { group: 'CS & Development', icon: Code2, items: ['OOP', 'Data Structures & Algorithms', 'Git', 'GitHub', 'Postman', 'Maven', 'Figma', 'Netlify' ] },
+  { group: 'CS & Development', icon: Code2, items: ['OOP', 'Data Structures & Algorithms', 'Git', 'GitHub', 'Postman', 'Maven', 'Figma', 'Vercel', 'Netlify' ] },
 ];
 
 const PROJECTS = [
@@ -120,7 +120,7 @@ Data Structures & Algorithms, Web Development and Problem Solving. Experienced
 in building real-world MERN-stack and Deep Learning projects.
 
 SKILLS
-Java, JavaScript, React.js, Node.js, Express.js, MongoDB, SQL, HTML, Tailwind CSS, 
+Java, JavaScript, Spring Boot, React.js, Node.js, Express.js, MongoDB, SQL, HTML, Tailwind CSS, 
 DSA, OOPs, DBMS, Computer Networks, Operating Systems, Git, GitHub, Figma, Netlify.
 
 PROJECTS
