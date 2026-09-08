@@ -37,14 +37,14 @@ const PROJECTS = [
     tag: 'MERN Stack',
     img: ecommerceImage,
     desc: 'A full-stack e-commerce platform with JWT authentication, cart, order management, an admin dashboard with analytics, and REST APIs built on Node, Express and MongoDB.',
-    stack: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
+    stack: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'REST APIs'],
 
   },
   {
     title: 'Brain Tumor Detector - Tumor Classifier',
     tag: 'Deep Learning',
     img: pituitaryImage,
-    desc: 'A deep learning web app that classifies images with a CNN model, exposing live predictions and confidence scores through a clean, responsive interface.',
+    desc: 'A deep learning web app that classifies MRI images with a CNN model, exposing live predictions and confidence scores through a clean, responsive interface.',
     stack: ['Python', 'CNN', 'Flask', 'React'],
     github: "https://github.com/Subhashree-git-02/Brain-Tumor-Detection-using-Deep-Learning",
   },
@@ -65,7 +65,7 @@ const EDUCATION = [
 
 const EXPERIENCE = [
   { role: 'MERN Stack Developer Intern', org: 'Sparkradix Technologies', period: 'August 2025 — December 2025', points: ['Built and shipped MERN-stack applications with reusable component libraries and REST APIs.', 'Optimised database queries and improved API response times through indexing and pagination.'] },
-  { role: 'Frontend Web Developer Intern', org: 'InternPe', period: 'June 2025 - July 2025', points: ['Assisted in building and maintained respoinsible frontend web applications using HTMl, CSS, JavaScript and basic backend integration.', 'Continuously learning system design and scalable architecture patterns.'] },
+  { role: 'Frontend Web Developer Intern', org: 'InternPe', period: 'June 2025 - July 2025', points: ['Assisted in building and maintained respoinsible frontend web applications using HTML, CSS, JavaScript and basic backend integration.', 'Continuously learning system design and scalable architecture patterns.'] },
 ];
 
 const CERTS = ['Programming in Java Elite, NPTEL — IIT Kharagpur', 'MERN Stack Development — Sparkradix Technologies ', 'IBM Granite Model for Software Development — IBM SkillsBuild', 'AI for beginners — hp Life'];
@@ -111,12 +111,12 @@ function SectionHead({ kicker, title, sub }) {
 
 function downloadResume() {
   const content = `SUBHASHREE SAHOO
-Full Stack Java Developer  |  Software Development Engineer
+Java Full Stack Developer  |  Software Development Engineer
 Email: ${LINKS.email}  |  GitHub: ${LINKS.github}  |  LinkedIn: ${LINKS.linkedin}
 
 SUMMARY
 MCA graduate and aspiring Software Development Engineer passionate about Java,
-Data Structures & Algorithms, Web Development and Problem Solving. Experienced
+Data Structures & Algorithms, Full Stack Web Development and Problem Solving. Experienced
 in building real-world MERN-stack and Deep Learning projects.
 
 SKILLS
@@ -253,7 +253,7 @@ export default function HomePage() {
         <div className="flex whitespace-nowrap animate-marquee">
           {[...Array(2)].map((_, r) => (
             <div key={r} className="flex items-center gap-8 pr-8 font-mono-code text-sm text-muted-foreground">
-              {['Java', 'JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'SQL', 'Tailwind CSS', 'REST APIs', 'Data Structures & Algorithms', 'Object-Oriented Programming', 'Git', 'GitHub', 'Figma'].map((s) => (
+              {['Java', 'JavaScript', 'Spring Boot', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'MySQL', 'SQL', 'Tailwind CSS', 'REST APIs', 'DSA', 'OOP', 'Git', 'GitHub', 'Postman','Figma'].map((s) => (
                 <span key={s} className="flex items-center gap-8"><span className="h-1.5 w-1.5 rounded-full bg-accent" />{s}</span>
               ))}
             </div>
