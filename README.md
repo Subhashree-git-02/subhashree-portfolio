@@ -118,7 +118,8 @@ https://subhashree-portfolio-k58v-pdrv4t1wq.vercel.app/
 
 ## Projects Section
 
-![Projects Section]()
+![Projects Section](https://github.com/Subhashree-git-02/subhashree-portfolio/blob/main/Project1.png)
+![Projects Section](https://github.com/Subhashree-git-02/subhashree-portfolio/blob/main/Project2.png)
 
 ---
 
