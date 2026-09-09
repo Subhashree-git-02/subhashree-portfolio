@@ -112,13 +112,13 @@ https://subhashree-portfolio-k58v-pdrv4t1wq.vercel.app/
 ---
 
 # 📸 Screenshots
-Home Page
+## Home Page
 
-![Portfolio Home Page](./screenshots/home.png)
-Projects Section
+![Portfolio Home Page](https://github.com/Subhashree-git-02/subhashree-portfolio/blob/main/HomePage.png)
 
+## Projects Section
 
-![Projects Section](./screenshots/projects.png)
+![Projects Section]()
 
 ---
 
