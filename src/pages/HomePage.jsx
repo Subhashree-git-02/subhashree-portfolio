@@ -61,6 +61,8 @@ const PROJECTS = [
 const EDUCATION = [
   { title: 'Master of Computer Applications (MCA) | CGPA: 8.18', place: 'Graduate', period: 'September 2024 — July 2026', note: 'Specialized in software engineering, data structures, and full-stack development. Graduated with distinction.' },
   { title: 'Bachelor of Science in Chemistry (B.Sc. Chemistry) | CGPA: 7.84', place: 'Undergraduate', period: 'May 2020 — June 2023', note: 'Studied a strong foundation in organic, inorganic, physical and analytical chemistry through theoretical and laboratory studies.' },
+  { title: 'Higher Secondary Education (HSC)', place: 'Science', period: '2018 - 2020', note: 'Completed higher secondary education with a focus on science subjects, including physics, chemistry, and mathematics.' },
+  { title: 'Secondary Education (BSE)', period: '2018', note: 'Completed secondary education with a focus on science subjects, including physics, chemistry, and mathematics.' },  
 ];
 
 const EXPERIENCE = [
