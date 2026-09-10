@@ -106,7 +106,7 @@ Frontend	Vercel
 Source Code	GitHub
 Live Website
 
-https://subhashree-portfolio-k58v-pdrv4t1wq.vercel.app/
+https://subhashreesahoo-portfolio-j71ebcvgd.vercel.app/
 
 
 ---
