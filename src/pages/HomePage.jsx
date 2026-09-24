@@ -22,15 +22,17 @@ const LINKS = {
   resume: 'https://drive.google.com/file/d/1me5Mjj4KdNWjmd36c9J6S9iJo5khrtPa/view?usp=drivesdk',
 };
 
-const ROLES = ['MCA Graduate', 'Java Developer', 'MERN Stack Developer', 'Full-Stack Developer', 'AI/GenAI Enthusiast', 'Problem Solver'];
+const ROLES = [ 'MCA Graduate', 'Java Full Stack Developer', 'Software Engineer', 'Full-Stack Developer', 'MERN Stack Developer', 'Problem Solver'];
 
 const SKILLS = [
-  { group: 'Languages', icon: Terminal, items: ['Java', 'JavaScript', 'SQL'] },
+  { group: 'Languages', icon: Terminal, items: ['Java', 'JavaScript (ES6+)', 'SQL'] },
   { group: 'Frontend', icon: Layers, items: ['React.js', 'HTML5', 'CSS3', 'Tailwind CSS'] },
-  { group: 'Backend', icon: Cpu, items: ['Java', 'Spring Boot', 'Express.js','Node.js', 'OOP'] },
-  { group: 'Databases', icon: Database, items: ['MySQL', 'MongoDB', 'DBMS'] },
-  { group: 'CS & Development', icon: Code2, items: ['OOP', 'Data Structures & Algorithms', 'Git', 'GitHub', 'Postman', 'Maven', 'Figma', 'Vercel', 'Netlify' ] },
+  { group: 'Backend', icon: Cpu, items: ['Java', 'Spring Boot', 'Node.js','Express.js', 'Spring Security', 'Hibernate', 'RESTful APIs'] },
+  { group: 'Databases & Caching', icon: Database, items: ['PostgreSQL', 'MySQL', 'MongoDB'] },
+  { group: 'CS & Tools', icon: Code2, items: ['Data Structures & Algorithms', 'OOP', 'Git & GitHub', 'Postman', 'Maven', 'Vercel'] }
 ];
+
+
 
 const PROJECTS = [
   {
@@ -42,7 +44,7 @@ const PROJECTS = [
 
   },
   {
-    title: 'Brain Tumor Detector - Tumor Classifier',
+    title: 'Brain Tumor Detector',
     tag: 'Deep Learning',
     img: pituitaryImage,
     desc: 'A deep learning web app that classifies MRI images with a CNN model, exposing live predictions and confidence scores through a clean, responsive interface.',
@@ -51,50 +53,43 @@ const PROJECTS = [
   },
 
   {
-  title: 'My Portfolio — Portfolio Website',
+  title: 'Personal Portfolio Website',
   tag: 'React Portfolio',
   img: portfolioImage,
   desc: 'A modern responsive developer portfolio showcasing my skills, projects, education, experience, and professional profile.',
   stack: ['React.js', 'Vite', 'Tailwind CSS', 'Framer Motion'],
   github: 'https://github.com/Subhashree-git-02/subhashree-portfolio',
   demo: 'https://subhashree-portfolio-k58v.vercel.app/',
-},
-  // {
-  //   title: 'My Portfolio — Portfolio Website',
-  //   tag: 'Full Stack',
-  //   img: 'https://images.hostinger.com/aa409876-471f-4525-903c-fbfdf1ee3aeb.png',
-  //   desc: 'A real-time messaging application featuring rooms, presence indicators and socket-based delivery, backed by a scalable Express and MongoDB service layer.',
-  //   stack: ['React', 'Socket.io', 'Node.js', 'MongoDB'],
-  //   github: LINKS.github, demo: '#',
-  // },
+}
 ];
 
 const EDUCATION = [
-  { title: 'Master of Computer Applications (MCA) | CGPA: 8.18', place: 'Graduate', period: 'September 2024 — July 2026', note: 'Specialized in software engineering, data structures, and full-stack development. Graduated with distinction.' },
+  { title: 'Master of Computer Applications (MCA) | CGPA: 8.18', place: 'Postgraduate', period: 'August 2024 — July 2026', note: 'Specialized in software engineering, data structures, and full-stack development. Graduated with distinction.' },
   { title: 'Bachelor of Science in Chemistry (B.Sc. Chemistry) | CGPA: 7.84', place: 'Undergraduate', period: 'May 2020 — June 2023', note: 'Studied a strong foundation in organic, inorganic, physical and analytical chemistry through theoretical and laboratory studies.' },
-  { title: 'Higher Secondary Education (HSC)', place: 'Science', period: '2018 - 2020', note: 'Completed higher secondary education with a focus on science subjects, including physics, chemistry, and mathematics.' },
-  { title: 'Secondary Education (BSE)', period: '2018', note: 'Completed secondary education with a focus on science subjects, including physics, chemistry, and mathematics.' },  
+  { title: 'Higher Secondary Education (HSC)', place: 'Higher Secondary', period: '2018 — 2020', note: 'Completed higher secondary education with a focus on science subjects, including physics, chemistry, and mathematics.' },
+  { title: 'Secondary Education (10th)', place: 'Secondary Education', period: '2018', note: 'Completed secondary education with a focus on science subjects, including physics, chemistry, and mathematics.' },  
 ];
 
 const EXPERIENCE = [
   { role: 'MERN Stack Developer Intern', org: 'Sparkradix Technologies', period: 'August 2025 — December 2025', points: ['Built and shipped MERN-stack applications with reusable component libraries and REST APIs.', 'Optimised database queries and improved API response times through indexing and pagination.'] },
-  { role: 'Frontend Web Developer Intern', org: 'InternPe', period: 'June 2025 - July 2025', points: ['Assisted in building and maintained respoinsible frontend web applications using HTML, CSS, JavaScript and basic backend integration.', 'Continuously learning system design and scalable architecture patterns.'] },
+  { role: 'Frontend Web Developer Intern', org: 'InternPe', period: 'June 2025 — July 2025', points: ['Assisted in building and maintained responsible frontend web applications using HTML, CSS, JavaScript and basic backend integration.', 'Continuously learning system design and scalable architecture patterns.'] },
 ];
 
-const CERTS = ['Programming in Java Elite, NPTEL — IIT Kharagpur', 'MERN Stack Development — Sparkradix Technologies ', 'IBM Granite Model for Software Development — IBM SkillsBuild', 'AI for beginners — hp Life'];
+const CERTS = ['Programming in Java, NPTEL Elite — IIT Kharagpur', 'MERN Stack Development — Sparkradix Technologies ', 'IBM Granite Models for Software Development — IBM SkillsBuild', 'AI for Beginners — hp Life'];
 
 const ACHIEVEMENTS = [
-  { stat: '100+', label: 'DSA problems solved' },
-  { stat: '2+', label: 'Projects built' },
-  { stat: '3★', label: 'HackerRank rating' },
-  { stat: '2026', label: 'MCA Graduate' },
+  { stat: '100+', label: 'DSA Problems Solved' },
+  { stat: '3★', label: 'HackerRank Rating' },
+  { stat: '2', label: 'Internship Experiences' },
+  { stat: '3+', label: 'Projects Built' },
+  
 ];
 
 const CODING_PROFILES = [
   { name: 'LeetCode', icon: Code2, href: LINKS.leetcode, meta: '100+ problems solved' },
   { name: 'HackerRank', icon: Trophy, href: LINKS.hackerrank, meta: '3-star problem solver' },
-  { name: 'GitHub', icon: Github, href: LINKS.github, meta: 'Open source & projects' },
-  { name: 'LinkedIn', icon: Linkedin, href: LINKS.linkedin, meta: 'Professional network' },
+  { name: 'GitHub', icon: Github, href: LINKS.github, meta: 'Open source & Projects' },
+  { name: 'LinkedIn', icon: Linkedin, href: LINKS.linkedin, meta: 'Professional Network' },
 ];
 
 const NAV = ['About', 'Skills', 'Projects', 'Journey', 'Contact'];
@@ -280,7 +275,7 @@ export default function HomePage() {
         <div className="grid md:grid-cols-2 gap-10 mt-12">
           <Reveal>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              I'm Subhashree — an MCA graduate and Full Stack Java Developer who genuinely enjoys
+              I'm Subhashree — an MCA graduate and Java Full Stack Developer who genuinely enjoys
               turning hard problems into clean, working software. My journey has taken me from the
               fundamentals of Java and Data Structures to shipping full real-world applications
               across the MERN stack.
