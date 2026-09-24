@@ -8,6 +8,7 @@ import {
 import profileImage from "../assets/image2.jpeg";
 import pituitaryImage from "../assets/pituitary.jpeg";
 import ecommerceImage from "../assets/ecommerce.png";
+import portfolioImage from "../assets/portfolio.png";
 
 
 const PORTRAIT = profileImage;
@@ -18,15 +19,15 @@ const LINKS = {
   linkedin: 'https://www.linkedin.com/in/subhashree-s-sahoo',
   hackerrank: 'https://www.hackerrank.com/profile/subhashreesaho18',
   email: 'subhashreesahoo49021662@gmail.com',
-  resume: 'https://drive.google.com/file/d/1yrblxMsBzkx7kphbCSTWYfSBGLIVjy1E/view?usp=drivesdk',
+  resume: 'https://drive.google.com/file/d/1me5Mjj4KdNWjmd36c9J6S9iJo5khrtPa/view?usp=drivesdk',
 };
 
-const ROLES = ['MCA Graduate', 'Java Developer', 'MERN Stack Developer', 'Full-Stack Developer', 'DSA Enthusiast', 'Problem Solver'];
+const ROLES = ['MCA Graduate', 'Java Developer', 'MERN Stack Developer', 'Full-Stack Developer', 'AI/GenAI Enthusiast', 'Problem Solver'];
 
 const SKILLS = [
   { group: 'Languages', icon: Terminal, items: ['Java', 'JavaScript', 'SQL'] },
   { group: 'Frontend', icon: Layers, items: ['React.js', 'HTML5', 'CSS3', 'Tailwind CSS'] },
-  { group: 'Backend', icon: Cpu, items: ['Java', 'Spring Boot', 'Express.js','Node.js', 'OOPs'] },
+  { group: 'Backend', icon: Cpu, items: ['Java', 'Spring Boot', 'Express.js','Node.js', 'OOP'] },
   { group: 'Databases', icon: Database, items: ['MySQL', 'MongoDB', 'DBMS'] },
   { group: 'CS & Development', icon: Code2, items: ['OOP', 'Data Structures & Algorithms', 'Git', 'GitHub', 'Postman', 'Maven', 'Figma', 'Vercel', 'Netlify' ] },
 ];
@@ -48,8 +49,18 @@ const PROJECTS = [
     stack: ['Python', 'CNN', 'Flask', 'React'],
     github: "https://github.com/Subhashree-git-02/Brain-Tumor-Detection-using-Deep-Learning",
   },
+
+  {
+  title: 'My Portfolio — Portfolio Website',
+  tag: 'React Portfolio',
+  img: portfolioImage,
+  desc: 'A modern responsive developer portfolio showcasing my skills, projects, education, experience, and professional profile.',
+  stack: ['React.js', 'Vite', 'Tailwind CSS', 'Framer Motion'],
+  github: 'https://github.com/Subhashree-git-02/subhashree-portfolio',
+  demo: 'https://subhashree-portfolio-k58v.vercel.app/',
+},
   // {
-  //   title: 'ConvoRoom — Realtime Chat',
+  //   title: 'My Portfolio — Portfolio Website',
   //   tag: 'Full Stack',
   //   img: 'https://images.hostinger.com/aa409876-471f-4525-903c-fbfdf1ee3aeb.png',
   //   desc: 'A real-time messaging application featuring rooms, presence indicators and socket-based delivery, backed by a scalable Express and MongoDB service layer.',
