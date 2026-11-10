@@ -19,7 +19,7 @@ const LINKS = {
   linkedin: 'https://www.linkedin.com/in/subhashree-s-sahoo',
   hackerrank: 'https://www.hackerrank.com/profile/subhashreesaho18',
   email: 'subhashreesahoo49021662@gmail.com',
-  resume: 'https://drive.google.com/file/d/1me5Mjj4KdNWjmd36c9J6S9iJo5khrtPa/view?usp=drivesdk',
+  resume: 'https://drive.google.com/file/d/1bAEUesQScPIZROu0QU0by1vsn0_qLXge/view?usp=drive_link',
 };
 
 const ROLES = [ 'MCA Graduate', 'Java Full Stack Developer', 'Software Engineer', 'Full-Stack Developer', 'MERN Stack Developer', 'Problem Solver'];
