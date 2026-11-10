@@ -8,7 +8,7 @@ A modern, responsive developer portfolio website built to showcase my technical 
 
 **Portfolio Website:**
 
-https://subhashreesahoo-portfolio-j71ebcvgd.vercel.app/
+https://subhashreesahoo-portfolio.vercel.app/
 
 ---
 
